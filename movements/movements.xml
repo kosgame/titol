@@ -1125,9 +1125,9 @@
 	<movevent type="StepIn" actionid="15113" event="script" value="alters/energy.lua" />
 	<movevent type="StepIn" actionid="15114" event="script" value="alters/fire.lua" />
 
-	<movevent type="StepIn" uniqueid="2510" event="script" value="hunt/dragon/huntingArena.lua" />
-	<movevent type="StepIn" uniqueid="2511" event="script" value="hunt/dragon/createdragon.lua"/>
-	<movevent type="StepIn" uniqueid="2512" event="script" value="hunt/dragon/huntingArenaLeave.lua"/>
+	<movevent type="StepIn" uniqueid="2510" event="script" value="huntingArena.lua" />
+	<movevent type="StepIn" uniqueid="2511" event="script" value="createdragon.lua"/>
+	<movevent type="StepIn" uniqueid="2512" event="script" value="huntingArenaLeave.lua"/>
 	
 
 </movements>
