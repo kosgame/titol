@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+	<event type="login" name="PlayerLogin" event="script" value="login.lua"/>
+
+	<event type="joinchannel" name="GuildMotd" event="script" value="guildmotd.lua"/>
+	<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
+	<event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>
+	
+	
+	<event type="advance" name="AdvanceSave" event="script" value="advancesave.lua"/>
+	<event type="login" name="EventRecord" event="script" value="eventrecord.lua"/>
+    <event type="advance" name="PlayerAdvance" event="script" value="promotion.lua"/>
+	<event type="advance" name="AdvancePoints" event="script" value="advancePoints.lua"/>
+	<event type="advance" name="AdvancePoints1" event="script" value="advancePoints1.lua"/>
+	<event type="advance" name="AdvancePoints2" event="script" value="advancePoints2.lua"/>
+	<event type="login" name="TempleBug" event="script" value="templebug.lua"/>
+		 
+	<event type="death" name="demonOakDeath" event="script" value="demonOakDeath.lua"/>
+	<event type="kill" name="ArenaKill" event="script" value="arenakill.lua"/>
+	<event type="kill" name="KillingInTheNameOf" event="script" value="killinginthenameof.lua"/>	
+	<event type="logout" name="demonOakLogout" event="script" value="demonOakLogout.lua"/> 
+		 
+	<!-- Inquisition Full Quest -->
+	<event type="kill" name="inquisitionPortals" script="Inquisition.lua"/>
+
+	<event type="think" name="Idle" event="script" value="idle.lua"/>
+	<event type="think" name="SkullCheck" event="script" value="skullcheck.lua"/>
+
+</creaturescripts>

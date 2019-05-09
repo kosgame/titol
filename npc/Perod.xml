@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Perod" script="data/npc/scripts/Perod.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="128" head="58" body="68" legs="12" feet="114" addons="0"/>
+<voices>
+<voice text="Stop by before embarking on your great adventure! Distance weapons and general equipment on sale today!" interval2="110" margin="1" yell="no"/>
+</voices>
+<parameters>
+<parameter key="message_greet" value="Greetings, dear |PLAYERNAME|. What do you need? I sell general {equipment} and {distance} weapons."/>
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+		<parameter key="message_walkaway" value="Good bye, |PLAYERNAME|." />
+		<parameter key="message_sendtrade" value="Of course, just browse through my wares. If you're only interested in {distance} equipment or a {football}, let me know." />	
+<parameter key="module_shop" value="1"/>
+<parameter key="shop_buyable" value="arrow,2544,3;bolt,2543,4;earth arrow,7850,5;flaming arrow,7840,5;flash arrow,7838,5;onyx arrow,7365,7;piercing bolt,7363,5;power bolt,2547,7;shiver arrow,7839,5;sniper arrow,7364,5;bow,2456,400;crossbow,2455,500;royal spear,7378,15;spear,2389,10;throwing star,2399,42;pear,2389,10;bottle,2007,3,1;book,1955,15;book,1950,15;bucket,2005,1,4;Camouflage Backpack,3940,20;Camouflage Bag,3939,5;Camouflage Bag,3939,5;cup,2013,1,2;document,1952,12;book,1958,15;fishing rod,2580,150;rope,2120,50;machete,2420,40;ug,2014,1,10;mug,2012,1,4;parchment,1948,8;scroll,1949,5;pick,2553,50;plate,2035,6;present box,1990,10;watch,2036,20;worm,3976,1;shovel,2554,50;scythe,2550,50;torch,2050,2;" />
+<parameter key="shop_sellable" value="bow,2456,100;spear,2389,3;crossbow,2455,120;" />
+    </parameters>
+</npc>

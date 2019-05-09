@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Pythius The Rotten" script="data/npc/scripts/default.lua" walkinterval="0" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="231" head="78" body="52" legs="68" feet="114" addons="0"/>
+    <parameters>
+        <parameter key="message_greet" value="I GRANT YOU ACCESS TO THE DUNGEON IN THE NORTH. YOU'LL FIND SOME OF MY LIVING BROTHERS THERE."/>
+        <parameter key="message_farewell" value=" I AWAITED YOU! |PLAYERNAME|."/>
+    </parameters>
+</npc>

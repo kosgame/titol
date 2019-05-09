@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Boots Mann" script="data/npc/scripts/bootsman.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+    <look type="128" head="114" body="88" legs="88" feet="0" addons="3" corpse="2212"/>
+  <parameters>
+    <parameter key="message_greet" value="Hello |PLAYERNAME|. i am specialised in boots, say {soft boots} or {firewalker boots}." />		
+  </parameters>
+</npc>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quests>
+	<quest name="Annihilator" startstorageid="5000" startstoragevalue="1"></quest>
+	<quest name="Demon Helmet" startstorageid="13445" startstoragevalue="1"></quest>
+	<quest name="Pits of Inferno" startstorageid="10008" startstoragevalue="1"></quest>
+	<quest name="Inquisition" startstorageid="6669" startstoragevalue="1"></quest>
+	<quest name="Blue legs" startstorageid="36207" startstoragevalue="1"></quest>
+	<quest name="Firewalker Boots" startstorageid="13101" startstoragevalue="1"></quest>
+	<quest name="Demon Oak" startstorageid="55100" startstoragevalue="1"></quest>
+	<quest name="Barbarian Arena - ALL" startstorageid="42355" startstoragevalue="1"></quest>
+	
+</quests>

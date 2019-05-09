@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Assasin" nameDescription="an assasin" race="blood" experience="105" speed="224" manacost="450">
+    <health now="175" max="175"/>
+    <look type="129" head="95" body="95" legs="95" feet="95" addons="2" corpse="6080"/>
+    <targetchange interval="2000" chance="5"/>
+    <strategy attack="70" defense="20"/>
+    <flags>
+        <flag summonable="0"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" skill="45" attack="45"/>
+        <attack name="physical" interval="1000" chance="13" range="7" min="-28" max="-38">
+            <attribute key="shootEffect" value="throwingstar"/>
+        </attack>
+        <attack name="drunk" interval="1000" chance="10" range="6">
+            <attribute key="shootEffect" value="poison"/>
+            <attribute key="areaEffect" value="poison"/>
+        </attack>
+    </attacks>
+    <defenses armor="15" defense="20">
+        <defense name="speed" interval="1000" chance="9" speedchange="240" duration="3000">
+            <attribute key="areaEffect" value="redshimmer"/>
+        </defense>
+        <defense name="invisible" interval="1000" chance="9" duration="2000">
+            <attribute key="areaEffect" value="blueshimmer"/>
+        </defense>
+    </defenses>
+    <elements>
+        <element physicalPercent="8"/>
+        <element deathPercent="5"/>
+    </elements>
+    <immunities>
+        <immunity invisible="1"/>
+    </immunities>
+    <voices interval="5000" chance="10">
+        <voice sentence="Die!"/>
+        <voice sentence="Feel the hand of death!"/>
+        <voice sentence="You are on my deathlist!"/>
+    </voices>
+    <loot>
+        <item id="2513" chance="1500" countmax="1"/> -- battle shield :: Def 23
+        <item id="2404" chance="4000" countmax="1"/> -- combat knife :: Def 6 :: Atk 8
+        <item id="2148" chance="80000" countmax="50"/> -- gold coin
+        <item id="2399" chance="15000" countmax="14"/> -- throwing star :: Atk 30
+        <item id="3969" chance="200" countmax="1"/> -- horseman helmet :: Arm 6
+        <item id="2403" chance="10000" countmax="1"/> -- knife :: Def 5 :: Atk 7
+        <item id="3968" chance="1300" countmax="1"/> -- leopard armor :: Arm 9
+        <item id="2510" chance="2000" countmax="1"/> -- plate shield :: Def 17
+        <item id="2145" chance="200" countmax="1"/> -- small diamond
+        <item id="2457" chance="3000" countmax="1"/> -- steel helmet :: Arm 6
+        <item id="7366" chance="1500" countmax="8"/> -- viper star :: Atk 28
+        <item id="2050" chance="30000" countmax="2"/> -- torch
+    </loot>
+</monster>

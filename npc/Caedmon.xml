@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+       
+       <npc name="Caedmon" script="data/npc/scripts/Xodet.lua" speed="40" access="3" floorchange="0" walkinterval="2000">
+       	<health now="1000" max="1000"/>
+       	<look type="130" head="76" body="66" legs="99" feet="36" corpse="3128"/>
+      	<parameters>
+      	<parameter key="message_greet" value="Hello,  |PLAYERNAME|. Im selling runes and potions! Say {trade} to see what I can offer you." />	      	</parameters>
+       </npc>
