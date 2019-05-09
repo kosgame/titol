@@ -26,19 +26,19 @@ local function getMonstersInRange(fromPosition, toPosition)
 end
 
 local SPECIAL_QUESTS = {2001}
-local pos = {from = {x = 31221, y = 32392, z = 7}, to = {x = 31224, y = 32395, z = 7}} -- range of room needed to prevent the creation of more than one monster see a picture (x and y)
+local pos = {from = {x=32124, y=31855, z=8}, to = {x=32130, y=31861, z=8}} -- range of room needed to prevent the creation of more than one monster see a picture (x and y)
 function onStepIn(cid, item, position, lastPosition, fromPosition, toPosition, actor)
     local storage_global = 26545 -- whenever the next room you need to change the value!
     if isPlayer(cid) and getGlobalStorageValue(storage_global) == -1 then
         mons = getMonstersInRange(pos.from, pos.to)
         m = 0
         for i = 1, #mons do
-            if getCreatureName(mons[i]) == 'Dragon Lord' then -- Monster Name
+            if getCreatureName(mons[i]) == 'Dragon' then -- Monster Name
                 m = m + 1
             end
         end
         if m == 0 then
-            doCreateMonster('Dragon', {x = 31223, y = 32395, z = 7}) -- Monster name and respawn ! See picture ( respawn )
+            doCreateMonster('Dragon', {x=31223, y=32395, z=7}) -- Monster name and respawn ! See picture ( respawn )
             return true
         else
             return doPlayerSendCancel(cid, 'Sorry, creature is now spawned.') and doTeleportThing(cid, fromPosition) and true
