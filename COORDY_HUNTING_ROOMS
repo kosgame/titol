@@ -1,9 +1,10 @@
-wejscie
+wejscie  uniqueid="2510"
 {x = 31228, y = 32393, z = 7}
-wyjscie
+wyjscie uniqueid="2512"
 {x = 31226, y = 32393, z = 7}
-kratka do spawnowania
+kratka do spawnowania uniqueid="2511"
 {x = 31220, y = 32390, z = 7}
 spawn monstera
 {x = 31223, y = 32395, z = 7}
 monster_name Dragon Lord
+
