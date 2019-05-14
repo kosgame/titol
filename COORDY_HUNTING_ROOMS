@@ -8,3 +8,12 @@ spawn monstera
 {x = 31223, y = 32395, z = 7}
 monster_name Dragon Lord
 
+// teleport do hunting areny
+{x = 30929, y = 31976, z = 7}
+
+//ARENA 1
+    // spawn potworka i wejście
+    {x = 30922, y = 31971, z = 7}
+
+    // wyjscie z areny
+    {x = 30919, y = 31974, z = 7}

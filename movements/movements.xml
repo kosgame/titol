@@ -1118,16 +1118,31 @@
 	<movevent type="StepIn" fromaid="7837" toaid="7840" event="script" value="alters/alterstpedron.lua" />
 	<movevent type="StepIn" fromaid="7841" toaid="7844" event="script" value="alters/alterstpsvar.lua" />
 	<movevent type="StepIn" fromaid="7845" toaid="7848" event="script" value="alters/alterstpyala.lua" />
-	
-		<!-- alters -->
+
 	<movevent type="StepIn" actionid="15111" event="script" value="alters/ice.lua" />
 	<movevent type="StepIn" actionid="15112" event="script" value="alters/earth.lua" />
 	<movevent type="StepIn" actionid="15113" event="script" value="alters/energy.lua" />
 	<movevent type="StepIn" actionid="15114" event="script" value="alters/fire.lua" />
 
-	<movevent type="StepIn" uniqueid="2510" event="script" value="huntingArena.lua" />
-	<movevent type="StepIn" uniqueid="2511" event="script" value="createdragon.lua"/>
-	<movevent type="StepIn" uniqueid="2512" event="script" value="huntingArenaLeave.lua"/>
+	<!-- arena1 -->
+	<movevent type="StepIn" actionid="2510" event="script" value="huntingArena/huntingArenaEnter.lua" />
+	<movevent type="StepIn" actionid="2511" event="script" value="huntingArena/createMonster.lua"/>
+	<movevent type="StepIn" actionid="2512" event="script" value="huntingArena/huntingArenaLeave.lua"/>
+
+	<!-- arena2 -->
+	<movevent type="StepIn" actionid="2520" event="script" value="huntingArena/huntingArenaEnter.lua" />
+	<movevent type="StepIn" actionid="2521" event="script" value="huntingArena/createMonster.lua"/>
+	<movevent type="StepIn" actionid="2522" event="script" value="huntingArena/huntingArenaLeave.lua"/>
+
+	<!-- arena2 -->
+	<movevent type="StepIn" actionid="2530" event="script" value="huntingArena/huntingArenaEnter.lua" />
+	<movevent type="StepIn" actionid="2531" event="script" value="huntingArena/createMonster.lua"/>
+	<movevent type="StepIn" actionid="2532" event="script" value="huntingArena/huntingArenaLeave.lua"/>
+
+	<!-- arena2 -->
+	<movevent type="StepIn" actionid="2540" event="script" value="huntingArena/huntingArenaEnter.lua" />
+	<movevent type="StepIn" actionid="2541" event="script" value="huntingArena/createMonster.lua"/>
+	<movevent type="StepIn" actionid="2542" event="script" value="huntingArena/huntingArenaLeave.lua"/>
 	
 
 </movements>
